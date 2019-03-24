@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #ECFFF4;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 8px #2D2704;
+}
+
+/* HEADER */
+header {
+    background-color: #1A5730;
+    width: 80%;
+    padding-top: 10px;
+    min-height: 115px;
+    position: fixed;
+    z-index: 2;
+}
+
+header #logo {
+    padding: 12px 20px 1px 10px;
+    background-color: white;
+    display: inline-block;
+    border-bottom-right-radius: 15px;
+}
+
+#logo img {
+    width: 170px;
+    margin: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header nav a:hover {
+    color: #9BFFC3;
+}
+
+/* BANNER */
+
+.banner h1 {
+    font-size: 50px;
+    margin-top: 225px;
+    color: #fff;
+    background-color: #020202;
+    padding: 7px 7px 7px 15px;
+    width: 900px;
+    opacity: 0.9;
+}
+
+.banner {
+    background: url(./img/student1.jpg) no-repeat 0 -250px;
+    background-size: 1475px 900px;
+    min-height: 550px;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+
+/* CHOOSE */
+
+main {
+    top: 200px;
+    padding-top: 124px;
+}
+
+.content {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+
+.choosetitle h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #0D2818;
+}
+
+.choosebox {
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 99%;
+    min-width: 30%;
+    margin: auto;
+}
+
+.choosebox h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.choosebox p {
+    display: none;
+}
+
+.cbox:hover p {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.cbox:hover h3 {
+    display: none;
+}
+
+.cbox:hover img {
+    display: none;
+}
+
+.cbox {
+    background-color: #97DFB4;
+    height: 250px;
+    box-shadow: 1px 1px 3px #020202;
+}
+
+.cbox img {
+    width: 90px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+/* PROGAMS */
+
+.pheader h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #0D2818
+}
+
+.programlist {
+    line-height: 1.5;
+}
+
+.programlist h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.immersive-program {
+    background-color: #E9F492;
+    width: 65%;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 1px 1px 3px #020202;
+}
+
+.parttime-program {
+    background-color: #BAF3F6;
+    width: 65%;
+    margin-right: auto;
+    padding: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 1px 1px 3px #020202;
+}
+
+#our-programs a {
+    text-decoration: none;
+}
+
+.learnmore p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/* TESTIMONIALS */
+
+.testi {
+    margin-top: 40px; 
+    overflow: hidden;
+}
+
+.testititle h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #0D2818;
+}
+
+.testibox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.ttext p {
+    color: #433E4B;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+.tname {
+    border-top: 3px #020202 solid;
+    padding-top: 20px;
+}
+
+.tname p {
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.tportrait img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.quotation img {
+    width: 70px;
+    position: absolute;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1A5730;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 80px;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+footer h5 {
+    color: whitesmoke;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.contactus h5 {
+    font-size: 20px;
+}
+
+.socialmedia img {
+    width: 50px;
+}
+
+.socialmedia {
+    margin-left: auto;
+    margin-right: 30px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 3px #fff;
+}
