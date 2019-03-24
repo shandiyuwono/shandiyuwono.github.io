@@ -163,8 +163,8 @@ main {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
-    margin-top: 40px;
-    color: #0D2818
+    margin-top: 30px;
+    color: whitesmoke;
 }
 
 .programlist {
@@ -177,24 +177,32 @@ main {
     padding-top: 20px;
 }
 .immersive-program {
-    background-color: #E9F492;
-    width: 65%;
+    background-color: #fff;
+    width: 50%;
     margin-left: auto;
     margin-bottom: 20px;
     padding: 30px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    box-shadow: 1px 1px 3px #020202;
+    box-shadow: 2px 2px 8px #020202;
 }
 
 .parttime-program {
-    background-color: #BAF3F6;
-    width: 65%;
+    background-color: #fff;
+    width: 50%;
     margin-right: auto;
     padding: 30px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow: 1px 1px 3px #020202;
+    box-shadow: 2px 2px 8px #020202;
+}
+
+#our-programs {
+    background: url(./img/jkt.gif);
+    background-size: cover;
+    padding-bottom: 50px;
+    overflow: hidden;
+    margin-top: 40px;   
 }
 
 #our-programs a {
